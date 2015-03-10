@@ -8,7 +8,7 @@ accessKey = os.getenv('IS_ACCESS_KEY', '')
 
 streamer = Streamer(bucket_name=bucketName, bucket_key=bucketKey, access_key=accessKey)
 
-for x in range(0, 300):
+for x in range(0, 150):
 	streamer.log('iteration', x)
 	streamer.log('temperature(F)', 72)
 
