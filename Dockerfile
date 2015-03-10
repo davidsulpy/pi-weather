@@ -8,4 +8,4 @@ RUN pip install ISStreamer
 
 COPY . /app
 
-CMD ["python", "/app/hello.py"]
+CMD ["python", "/app/app.py"]
